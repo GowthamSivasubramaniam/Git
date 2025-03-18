@@ -1,7 +1,0 @@
-The objectives of the task one is to learn about
---> git init
---> git add
---> git commit
---> git branch
---> git checkout -b
---> git merge
