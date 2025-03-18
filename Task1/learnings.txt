@@ -1,5 +1,0 @@
-Here i have learned about using rebase like if just used git init and just created a file,
-commited and then if i do git remote add origin main and do push it shows error like, 
-"having some commits or changes before the addition of this local repo to my github"
-so i have to do rebaseing like "git pull origin main --rebase" so then it will make all commits 
-before addition of remote to be stacked in this repo and now i can push and it will be reflected.
