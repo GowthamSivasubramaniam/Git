@@ -1,11 +1,23 @@
+output
+
+
 commit 4ca4bf8980ab9853adf000927482a5932aba2199 (HEAD -> main)
 Author: GowthamSivasubramaniam <gowthamsivasubramaniam03@gmail.com>
 Date:   Wed Mar 19 11:11:05 2025 +0530
 
     created README file and undo file
 
-now have make the file unstaged after staging 
-for that the command is git restore --staged "filename" 
+---> Now have make the file unstaged after staging 
+---> for that the command is git restore --staged "filename" 
+
+
+
+
+
+
+_________________________________________________________________
+
+
 
 output
 
@@ -29,22 +41,29 @@ no changes added to commit (use "git add" and/or "git commit -a")
 git checkout undo.txt  
 Updated 1 path from the index
 
+
+
+_________________________________________________________________
+
+
+
+
 output for git revert 60d3c14c7196938d977599cbae587110e2b869b9
 
 Revert " simulating revert command"
 
-This reverts commit 60d3c14c7196938d977599cbae587110e2b869b9.
+-->This reverts commit 60d3c14c7196938d977599cbae587110e2b869b9.
 
 
-The git revert undos the commit but keeps the history same without altering
+--> The git revert undos the commit but keeps the history same without altering
 
-The git restore --soft will make the changes  staged and alters the history and changes head 
+--> The git restore --soft will make the changes  staged and alters the history and changes head 
 position to the given commit hash
 
-The git restore --mixed will make the changes  unstaged and alters the 
+--> The git restore --mixed will make the changes  unstaged and alters the 
 history and changes head position to the given commit hash
 
-The git restore --hard will change the content of that commit hash and the changes done after that 
+--> The git restore --hard will change the content of that commit hash and the changes done after that 
 commit hash will be removed and alters the history and changes head position to the given
 commit hash .
 
