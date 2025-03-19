@@ -3,3 +3,7 @@ creating learnings.text and giving typos in commit
 Squashing the commit
 
 commit 2
+
+for reordering 
+
+commit 1
