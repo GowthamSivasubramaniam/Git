@@ -22,4 +22,42 @@ output
  create mode 100644 Task5/learnings.txt
 Successfully rebased and updated refs/heads/main.
 
+==================================================================================================================
+
+Steps followed for Squashing commit messages
+
+--> updated learnings.txt and commited with "Updated Learnings.txt"
+--> used "git rebase -i HEAD~3 " it will list last 3 commits
+--> Opened vim editor and changed "pick" command to "Squash"
+--> again it Opened interactive rebase editor and there have created another  message to "Squashing 3 commits"
+--> saved it and  exited.
+
+output git rebase -i HEAD~3
+>>>
+# This is a combination of 3 commits.
+# This is the 1st commit message:
+
+created learnings.txt
+
+# This is the commit message #2:
+
+Created README.txt
+
+# This is the commit message #3:
+
+Updated Learnings.txt
+
+commit 91ffdbf12252f47e870bcc4ae53b7bdb9b97bc3f (HEAD -> main)
+Author: GowthamSivasubramaniam <gowthamsivasubramaniam03@gmail.com>
+Date:   Wed Mar 19 16:10:48 2025 +0530
+
+    created learnings.txt
+    
+    Created README.txt
+    
+    Updated Learnings.txt
+    
+    Squashing 3 commits
+
+==================================================================================================================
 
