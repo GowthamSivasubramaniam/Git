@@ -1,0 +1,3 @@
+creating learnings.text and giving typos in commit
+
+Squashing the commit
