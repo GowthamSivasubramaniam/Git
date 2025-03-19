@@ -29,6 +29,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 git checkout undo.txt  
 Updated 1 path from the index
 
+output for git revert 60d3c14c7196938d977599cbae587110e2b869b9
+
+Revert " simulating revert command"
+
+This reverts commit 60d3c14c7196938d977599cbae587110e2b869b9.
 
 
-seeing commit revert
+The git revert undos the commit but keeps the history
