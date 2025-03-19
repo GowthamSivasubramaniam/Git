@@ -1,9 +1,3 @@
-Objective
-
-===> Selectively apply a commit from one branch to another using cherry-pick.
-
-============================================================================================================
-
 Steps to be followed 
 
 ==> created a README file in "main branch"
