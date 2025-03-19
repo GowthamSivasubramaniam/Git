@@ -67,13 +67,20 @@ Steps followed for reordering commit messages
 --> updated learnings.txt and commited with "Updated learnings.txt for second commit for reordering purpose"
 --> updated learnings.txt and commited with "Updated learnings.txt for third commit for reordering purpose"
 --> used "git rebase -i HEAD~3 " it will list last 3 commits
---> Opened vim editor and changed "pick" command to "Squash"
---> again it Opened interactive rebase editor and there have created another  message to "Squashing 3 commits"
+--> changed the order like 1st commit is below the 2nd and saved
+--> it showed conflicts and resolved all the conflicts 
+--> After vim editor opened and asked for commit message and created one "Updated learnings.txt and  reordered 1 and 2"
 --> saved it and  exited.
 
-output before reordering for git log command
+output before reordering from git log command
 
 
 =====> 67a3c5f (HEAD -> main) Updated learnings.txt for third commit for reordering purpose
 =====> ec62cf5 Updated learnings.txt for second commit for reordering purpose
 =====> 154a162 Updated learnings.txt for first commit for reordering purpose
+
+output after  reordering from git log command
+
+=====> 84a5cdc Updated learnings.txt and  reordered 1 and 2
+
+==================================================================================================================
