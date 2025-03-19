@@ -28,3 +28,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 git checkout undo.txt  
 Updated 1 path from the index
+
+
+
+seeing commit revert
