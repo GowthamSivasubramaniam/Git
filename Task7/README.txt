@@ -1,8 +1,10 @@
+
 objectives
 
 ===> Selectively apply a commit from one branch to another using cherry-pick.
 =================================================================================================================
-Steps to be followed 
+
+Steps to be followed
 
 ==> created a README file in "main branch"
 ==> commited it.
@@ -11,6 +13,9 @@ Steps to be followed
 ==> commited it.
 ==> created a file in Test branch as "test.txt"
 ==> commited it.
+
+==> Did cherry pic like "git cherry-pick commitid"
+=======
 ==> Did cherry pick ====> "git cherry-pick 3eb13da"
 ==> got conflict and resolved it and staged it.
 ==> Then executed "git cherry-pick --continue"
@@ -26,4 +31,3 @@ output of git log
 >> 2cf52a1 Updated README.txt
 
 The cherry picked one is present!
-
